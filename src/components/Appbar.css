@@ -1,0 +1,40 @@
+/* .iconStyle{
+    background-image: url(./user-profile.png);
+    } */
+    
+    .appbar{
+        color: red;
+    }
+    .hideButtons{
+        @media only screen and (max-width: 600px) {
+               #fadeshow1 {
+            display: none;
+        }
+            
+          }
+    }
+      
+      @media only screen and (max-width: 600px) {
+        #fadeshow1 {
+            display: none;
+            color: white;
+        }
+    }
+      @media only screen and (min-width: 600px) {
+        #fadeshow2 {
+            display: none;
+        }
+    }
+    
+    #shadow{
+    
+        box-shadow: 0px 1px 8px;
+        /* padding-top: 1px; */
+        /* background: linear-gradient(90deg, rgba(221,45,158,1) 35%, rgba(68,0,255,0.9136029411764706) 100%); */
+    }
+    
+    #font{
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        font-weight: bold;
+    }
